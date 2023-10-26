@@ -7,15 +7,26 @@ rules:
       - appstudio.redhat.com
     resources:
       - applications
+      - applicationlists
       - buildpipelineselectors
       - componentdetectionqueries
+      - componentdetectionquerylists
       - components
+      - componentlists
+      - deploymenttargets
+      - deploymenttargetclaims
+      - deploymenttargetclaimlists
+      - deploymenttargetclass
+      - deploymenttargetclasslists
+      - deploymenttargetlists
       - enterprisecontractpolicies
       - environments
+      - environmentlists
       - integrationtestscenarios
       # RHTAP Admins should not be permitted to create or edit InternalRequest resources.
       # - internalrequests
       - promotionruns
+      - promotionrunlists
       - releaseplanadmissions
       - releaseplans
       - releases
@@ -23,6 +34,8 @@ rules:
       - releasestrategies
       - snapshotenvironmentbindings
       - snapshots
+      - snapshotenvironmentbindinglists
+      - snapshotlists
       - spiaccesschecks
       - spiaccesstokenbindings
       - spifilecontentrequests
